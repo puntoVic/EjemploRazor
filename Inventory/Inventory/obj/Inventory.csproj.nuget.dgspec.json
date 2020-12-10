@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\volve\\ProyectosPlatzi\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj": {}
+    "C:\\Users\\volve\\Proyectos\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\volve\\ProyectosPlatzi\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj": {
+    "C:\\Users\\volve\\Proyectos\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\volve\\ProyectosPlatzi\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj",
+        "projectUniqueName": "C:\\Users\\volve\\Proyectos\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj",
         "projectName": "Inventory",
-        "projectPath": "C:\\Users\\volve\\ProyectosPlatzi\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj",
+        "projectPath": "C:\\Users\\volve\\Proyectos\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj",
         "packagesPath": "C:\\Users\\volve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\volve\\ProyectosPlatzi\\AprendiendoRazor\\Inventory\\Inventory\\obj\\",
+        "outputPath": "C:\\Users\\volve\\Proyectos\\AprendiendoRazor\\Inventory\\Inventory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -59,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

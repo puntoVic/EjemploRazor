@@ -75,6 +75,13 @@ using Inventory.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\volve\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.Ejercicios.BlazorPages;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -83,20 +90,6 @@ using Inventory.Shared;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 8 "C:\Users\volve\Proyectos\AprendiendoRazor\Inventory\Inventory\Pages\Index.razor"
-       
-    string message = "un contenido";
-    string message2;
-
-    private void ChangeText()
-    {
-        message = message2;
-    }
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591
