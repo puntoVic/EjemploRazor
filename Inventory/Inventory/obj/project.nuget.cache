@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "561jN4rpk4hbMu76XAtieRY2obAF+dwD1F/jTe2avfnZZxeL9nmzwyeWnSnF7RT2utfhWBBzIHgxaenjNSGV4A==",
+  "dgSpecHash": "qdrorOVCRGoTQjT3w6Hu5Lm/VswNXs2Yzb8pNSvomVp01SWwcrxKW979rNZBRKHpwzF+mwt8fa10ewQ1QYdkiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\volve\\Proyectos\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj",
+  "projectFilePath": "D:\\Proyectos\\AprendiendoRazor\\Inventory\\Inventory\\Inventory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\volve\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\volve\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

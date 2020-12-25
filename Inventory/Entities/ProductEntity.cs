@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Entities
 {
-    public class ProductEntiity
+    public class ProductEntity
     {
         [Key]
         [StringLength(10)]

@@ -168,19 +168,19 @@ namespace DataAccess.Migrations
                     b.HasData(
                         new
                         {
-                            WarehouseId = "362dbe32-b67f-4585-8bb4-0d0bfb49b356",
+                            WarehouseId = "4609298f-2eff-4a6f-88ab-b958cc611a5e",
                             WarehouseAddress = "Calle 1",
                             WarehouseName = "Bodega Central"
                         },
                         new
                         {
-                            WarehouseId = "e6123205-932f-4c26-bcd8-4a124edbf3b0",
+                            WarehouseId = "17223685-cd79-4700-bbea-f7d0ebb21a12",
                             WarehouseAddress = "Calle 2",
                             WarehouseName = "Bodega Norte"
                         },
                         new
                         {
-                            WarehouseId = "d515f990-db16-4c97-9da7-0d6b647099d6",
+                            WarehouseId = "e79c4210-a6bd-49c3-a4ba-e06ca8d35d24",
                             WarehouseAddress = "Calle 3",
                             WarehouseName = "Bodega Sur"
                         });

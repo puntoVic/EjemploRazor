@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(InventaryContext))]
-    [Migration("20201214015748_FirstMigration1")]
-    partial class FirstMigration1
+    [Migration("20201224171310_FirstMigration")]
+    partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -35,6 +35,38 @@ namespace DataAccess.Migrations
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = "ASH",
+                            CategoryName = "Aseo Hogar"
+                        },
+                        new
+                        {
+                            CategoryId = "ASP",
+                            CategoryName = "Aseo Personal"
+                        },
+                        new
+                        {
+                            CategoryId = "HGR",
+                            CategoryName = "Hogar"
+                        },
+                        new
+                        {
+                            CategoryId = "PRF",
+                            CategoryName = "Perfumería"
+                        },
+                        new
+                        {
+                            CategoryId = "SLD",
+                            CategoryName = "Salud"
+                        },
+                        new
+                        {
+                            CategoryId = "VDJ",
+                            CategoryName = "Videojuegos"
+                        });
                 });
 
             modelBuilder.Entity("Entities.InputOutputEntity", b =>
@@ -134,6 +166,26 @@ namespace DataAccess.Migrations
                     b.HasKey("WarehouseId");
 
                     b.ToTable("Warehouses");
+
+                    b.HasData(
+                        new
+                        {
+                            WarehouseId = "4609298f-2eff-4a6f-88ab-b958cc611a5e",
+                            WarehouseAddress = "Calle 1",
+                            WarehouseName = "Bodega Central"
+                        },
+                        new
+                        {
+                            WarehouseId = "17223685-cd79-4700-bbea-f7d0ebb21a12",
+                            WarehouseAddress = "Calle 2",
+                            WarehouseName = "Bodega Norte"
+                        },
+                        new
+                        {
+                            WarehouseId = "e79c4210-a6bd-49c3-a4ba-e06ca8d35d24",
+                            WarehouseAddress = "Calle 3",
+                            WarehouseName = "Bodega Sur"
+                        });
                 });
 
             modelBuilder.Entity("Entities.InputOutputEntity", b =>

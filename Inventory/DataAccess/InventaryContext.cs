@@ -8,7 +8,7 @@ namespace DataAccess
 {
     public class InventaryContext : DbContext
     {
-        public DbSet<ProductEntiity> Products { get; set; }
+        public DbSet<ProductEntity> Products { get; set; }
         public DbSet<CategoryEntity> Categories { get; set; }
         public DbSet<InputOutputEntity> InOuts { get; set; }
         public DbSet<WarehouseEntity> Warehouses { get; set; }
@@ -19,7 +19,7 @@ namespace DataAccess
         {
             if (!options.IsConfigured)
             {
-                options.UseSqlServer("Server=DESKTOP-5TU6M9N; Database= InventoryDb; User Id= sa; Password = SQL123");
+                options.UseSqlServer("Server=DESKTOP-E0Q3KH2; Database= InventoryDb; User Id= sa; Password = SQL123");
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DataAccess.Migrations
 {
-    public partial class FirstMigration1 : Migration
+    public partial class FirstMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -99,6 +99,29 @@ namespace DataAccess.Migrations
                         principalTable: "Storages",
                         principalColumn: "StorageId",
                         onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "CategoryId", "CategoryName" },
+                values: new object[,]
+                {
+                    { "ASH", "Aseo Hogar" },
+                    { "ASP", "Aseo Personal" },
+                    { "HGR", "Hogar" },
+                    { "PRF", "Perfumería" },
+                    { "SLD", "Salud" },
+                    { "VDJ", "Videojuegos" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Warehouses",
+                columns: new[] { "WarehouseId", "WarehouseAddress", "WarehouseName" },
+                values: new object[,]
+                {
+                    { "4609298f-2eff-4a6f-88ab-b958cc611a5e", "Calle 1", "Bodega Central" },
+                    { "17223685-cd79-4700-bbea-f7d0ebb21a12", "Calle 2", "Bodega Norte" },
+                    { "e79c4210-a6bd-49c3-a4ba-e06ca8d35d24", "Calle 3", "Bodega Sur" }
                 });
 
             migrationBuilder.CreateIndex(

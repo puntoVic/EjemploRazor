@@ -1,0 +1,14 @@
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\bin\Release\netcoreapp3.1\Bussines.deps.json
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\bin\Release\netcoreapp3.1\Bussines.dll
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\bin\Release\netcoreapp3.1\Bussines.pdb
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\bin\Release\netcoreapp3.1\DataAccess.dll
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\bin\Release\netcoreapp3.1\Entities.dll
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\bin\Release\netcoreapp3.1\DataAccess.pdb
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\bin\Release\netcoreapp3.1\Entities.pdb
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\obj\Release\netcoreapp3.1\Bussines.csprojAssemblyReference.cache
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\obj\Release\netcoreapp3.1\Bussines.AssemblyInfoInputs.cache
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\obj\Release\netcoreapp3.1\Bussines.AssemblyInfo.cs
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\obj\Release\netcoreapp3.1\Bussines.csproj.CoreCompileInputs.cache
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\obj\Release\netcoreapp3.1\Bussines.csproj.CopyComplete
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\obj\Release\netcoreapp3.1\Bussines.dll
+D:\Proyectos\AprendiendoRazor\Inventory\Bussines\obj\Release\netcoreapp3.1\Bussines.pdb
