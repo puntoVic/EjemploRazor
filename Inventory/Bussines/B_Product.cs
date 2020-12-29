@@ -8,7 +8,7 @@ namespace Bussines
 {
     public class B_Product
     {
-        public List<ProductEntity> ProductList()
+        public static List<ProductEntity> ProductList()
         {
             using (var db = new InventaryContext())
             {
@@ -16,7 +16,7 @@ namespace Bussines
             }
         }
 
-        public void CreateProduct(ProductEntity oProduct)
+        public static void CreateProduct(ProductEntity oProduct)
         {
             using (var db = new InventaryContext())
             {
@@ -25,7 +25,7 @@ namespace Bussines
             }
         }
 
-        public void UpdateProduct(ProductEntity oProduct)
+        public static void UpdateProduct(ProductEntity oProduct)
         {
             using (var db = new InventaryContext())
             {
