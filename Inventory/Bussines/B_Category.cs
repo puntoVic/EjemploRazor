@@ -7,15 +7,21 @@ namespace Bussines
 {
     public class B_Category
     {
-        public List<CategoryEntity> CategoryList()
+        public static List<CategoryEntity> CategoryList()
         {
             using (var db = new InventaryContext())
             {
                 return db.Categories.ToList();
             }
         }
-
-        public void CreateCategory(CategoryEntity oCategory)
+        public static CategoryEntity CategoryById(string Id)
+        {
+            using (var db = new InventaryContext())
+            {
+                return db.Categories.ToList().LastOrDefault(p => p.CategoryId == Id);
+            }
+        }
+        public static void CreateCategory(CategoryEntity oCategory)
         {
             using (var db = new InventaryContext())
             {
@@ -24,7 +30,7 @@ namespace Bussines
             }
         }
 
-        public void UpdateCategory(CategoryEntity oCategory)
+        public static void UpdateCategory(CategoryEntity oCategory)
         {
             using (var db = new InventaryContext())
             {

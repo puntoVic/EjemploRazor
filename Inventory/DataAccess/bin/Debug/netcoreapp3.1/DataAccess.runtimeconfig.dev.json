@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\volve\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\volve\\.nuget\\packages"
+    ]
+  }
+}

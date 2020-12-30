@@ -154,3 +154,7 @@ D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Release\netcoreapp3.1\Inve
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.dll
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.pdb
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.genruntimeconfig.cache
+D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Release\netcoreapp3.1\RazorDeclaration\Components\Products\CreateProductComponent.razor.g.cs
+D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Release\netcoreapp3.1\Razor\Components\Products\CreateProductComponent.razor.g.cs
+D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Release\netcoreapp3.1\RazorDeclaration\Components\Products\ListProductComponent.razor.g.cs
+D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Release\netcoreapp3.1\Razor\Components\Products\ListProductComponent.razor.g.cs
