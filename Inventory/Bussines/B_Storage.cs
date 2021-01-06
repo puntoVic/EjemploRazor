@@ -8,7 +8,7 @@ namespace Bussines
 {
     public class B_Storage
     {
-        public List<StorageEntity> InputOutputList()
+        public static  List<StorageEntity> StorageList()
         {
             using (var db = new InventaryContext())
             {
@@ -16,7 +16,7 @@ namespace Bussines
             }
         }
 
-        public void CreateStorage(StorageEntity oStorage)
+        public static void CreateStorage(StorageEntity oStorage)
         {
             using (var db = new InventaryContext())
             {
@@ -25,12 +25,20 @@ namespace Bussines
             }
         }
 
-        public void UpdateStorage(StorageEntity oStorage)
+        public static void UpdateStorage(StorageEntity oStorage)
         {
             using (var db = new InventaryContext())
             {
                 db.Storages.Update(oStorage);
                 db.SaveChanges();
+            }
+        }
+
+        public static StorageEntity StorageById(string Id)
+        {
+            using (var db = new InventaryContext())
+            {
+                return db.Storages.ToList().LastOrDefault(p => p.StorageId == Id);
             }
         }
     }

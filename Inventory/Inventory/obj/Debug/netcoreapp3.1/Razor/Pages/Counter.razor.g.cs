@@ -100,6 +100,13 @@ using Inventory.Components.Categories;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.InputsOutputs;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {

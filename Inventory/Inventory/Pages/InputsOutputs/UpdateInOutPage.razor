@@ -1,0 +1,11 @@
+﻿@page "/inputOutput/update/{InOutId}"
+
+<UpdateInOutComponent inOutId ="@InOutId" />
+@code {
+    [Parameter]
+    public string InOutId { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        InOutId = InOutId;
+    }
+}

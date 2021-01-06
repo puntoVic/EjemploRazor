@@ -103,6 +103,27 @@ using Inventory.Components.Categories;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.InputsOutputs;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.Storages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.Warehouses;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

@@ -1,0 +1,81 @@
+﻿@using Entities
+@using Bussines
+
+<hr />
+<select class="form-control"  @onchange="ProductChange">
+    <option value="">Seleccione producto...</option>
+    @foreach (var product in products)
+    {
+        <option value="@product.ProductId">@product.ProductName</option>
+    }
+</select>
+<hr />
+<hr />
+<select class="form-control" @onchange="WarehouseChange">
+    <option value="">Seleccione bodega...</option>
+    @foreach (var warehouse in warehouses)
+    {
+        <option value="@warehouse.WarehouseId">@warehouse.WarehouseName</option>
+    }
+</select>
+<hr />
+<table class="table table-hover  table-bordered">
+    <thead>
+        <tr>
+            <th>Referencia</th>
+            <th>Cantidad Parcial</th>
+            <th>Producto</th>
+            <th>Bodega</th>
+            <th></th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var storage in tempStorages)
+        {
+        <tr>
+            <td>@storage.StorageId</td>
+            <td>@storage.PartialQuantity</td>
+            <td>@storage.ProductId</td>
+            <td>@storage.WarehouseId</td>
+            <td><a href="storage/update/@storage.StorageId">Editar</a></td>
+        </tr>
+        }
+    </tbody>
+
+</table>
+
+@code {
+
+    List<StorageEntity> storages = new List<StorageEntity>();
+    List<StorageEntity> tempStorages = new List<StorageEntity>();
+    List<ProductEntity> products = new List<ProductEntity>();
+    List<WarehouseEntity> warehouses = new List<WarehouseEntity>();
+    string productSel = string.Empty;
+    string warehouseSel = string.Empty;
+    protected override async Task OnInitializedAsync()
+    {
+        storages = B_Storage.StorageList();
+        tempStorages = storages;
+        products = B_Product.ProductList();
+        warehouses = B_Warehouse.WarehouseList();
+
+    }
+    private void ProductChange(ChangeEventArgs e)
+    {
+        productSel = e.Value.ToString();
+        if (String.IsNullOrEmpty(warehouseSel))
+            tempStorages = storages.Where(c => c.ProductId == productSel).ToList();
+        else
+            tempStorages = storages.Where(c => c.ProductId == productSel && c.WarehouseId == warehouseSel).ToList();
+    }
+
+    private void WarehouseChange(ChangeEventArgs e)
+    {
+        warehouseSel = e.Value.ToString();
+        if (String.IsNullOrEmpty(productSel))
+            tempStorages = storages.Where(c => c.WarehouseId == warehouseSel).ToList();
+        else
+            tempStorages = storages.Where(c => c.ProductId == productSel && c.WarehouseId == warehouseSel).ToList();
+    }
+}

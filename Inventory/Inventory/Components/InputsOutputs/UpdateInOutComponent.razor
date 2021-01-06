@@ -1,0 +1,53 @@
+﻿@using Entities
+@using Bussines
+
+@inject NavigationManager NavManager
+
+<EditForm Model="oInOut">
+    <div class="form-group">
+        <label>Fecha de movimiento</label>
+        <InputDate @bind-Value="oInOut.InOutDate" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Cantidad</label>
+        <InputNumber @bind-Value="oInOut.Quantity" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Entrada o salida</label>
+        <InputSelect @bind-Value="oInOut.IsInput" class="form-control">
+            <option value="1">Entrada</option>
+            <option value="0">Salida</option>
+        </InputSelect>
+    </div>
+    <div class="form-group">
+        <label>Almacenamiento:</label>
+        <InputSelect @bind-Value="oInOut.StorageId" class="form-control">
+            @foreach (var storage in storages)
+            {
+                <option value="@storage.StorageId">@storage.Product.ProductName - @storage.StorageId</option>
+            }
+        </InputSelect>
+    </div>
+
+    <input type="button" value="Actualizar movimiento" @onclick="UpdateInOut" />
+</EditForm>
+
+@code {
+    [Parameter]
+    public string IdInOut { get; set; }
+    InputOutputEntity oInOut = new InputOutputEntity();
+    List<StorageEntity> storages = new List<StorageEntity>();
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        oInOut = B_InputOutput.InOutById(IdInOut);
+        storages = B_Storage.StorageList();
+    }
+    private void UpdateInOut()
+    {
+        B_InputOutput.UpdateInputOutput(oInOut);
+        NavManager.NavigateTo("inputOutput/list");
+    }
+}

@@ -104,6 +104,27 @@ using Inventory.Components.Categories;
 #line hidden
 #nullable disable
 #nullable restore
+#line 14 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.InputsOutputs;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.Storages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+using Inventory.Components.Warehouses;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\Pages\FetchData.razor"
 using Inventory.Data;
 
