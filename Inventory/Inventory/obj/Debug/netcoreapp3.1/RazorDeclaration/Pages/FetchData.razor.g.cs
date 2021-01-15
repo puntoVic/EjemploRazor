@@ -90,6 +90,7 @@ using Inventory.Components.Ejercicios.Forms;
 #line hidden
 #nullable disable
 #nullable restore
+<<<<<<< HEAD
 #line 12 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
 using Inventory.Components.Products;
 
@@ -125,6 +126,8 @@ using Inventory.Components.Warehouses;
 #line hidden
 #nullable disable
 #nullable restore
+=======
+>>>>>>> 77c73cd (merge localwork-main)
 #line 3 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\Pages\FetchData.razor"
 using Inventory.Data;
 

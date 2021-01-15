@@ -89,6 +89,7 @@ using Inventory.Components.Ejercicios.Forms;
 #line default
 #line hidden
 #nullable disable
+<<<<<<< HEAD
 #nullable restore
 #line 12 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
 using Inventory.Components.Products;
@@ -124,6 +125,8 @@ using Inventory.Components.Warehouses;
 #line default
 #line hidden
 #nullable disable
+=======
+>>>>>>> 77c73cd (merge localwork-main)
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -132,7 +135,11 @@ using Inventory.Components.Warehouses;
         }
         #pragma warning restore 1998
 #nullable restore
+<<<<<<< HEAD
 #line 53 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\Shared\NavMenu.razor"
+=======
+#line 28 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\Shared\NavMenu.razor"
+>>>>>>> 77c73cd (merge localwork-main)
        
     private bool collapseNavMenu = true;
 
