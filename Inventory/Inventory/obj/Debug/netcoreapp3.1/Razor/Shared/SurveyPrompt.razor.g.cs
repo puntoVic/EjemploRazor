@@ -86,6 +86,7 @@ using Inventory.Components.Ejercicios.Forms;
 #line default
 #line hidden
 #nullable disable
+<<<<<<< HEAD
 #nullable restore
 #line 12 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
 using Inventory.Components.Products;
@@ -121,6 +122,8 @@ using Inventory.Components.Warehouses;
 #line default
 #line hidden
 #nullable disable
+=======
+>>>>>>> 603b2f0 (no se que pasa)
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
