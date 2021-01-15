@@ -132,7 +132,7 @@ using Inventory.Components.Warehouses;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\Shared\NavMenu.razor"
+#line 53 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

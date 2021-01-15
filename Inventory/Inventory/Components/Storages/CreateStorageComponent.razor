@@ -4,15 +4,7 @@
 @inject NavigationManager NavManager
 <div>
     <EditForm Model="oStorage">
-        <div class="form-group">
-            <label>Referencia</label>
-            <InputText @bind-Value="oStorage.StorageId" class="form-control" />
-        </div>
-        <div class="form-group">
-            <label>Nombre del producto</label>
-            <InputNumber @bind-Value="oStorage.PartialQuantity" class="form-control" />
-        </div>
-
+        
         <div class="form-group">
             <label>Producto:</label>
             <InputSelect @bind-Value="oStorage.ProductId" class="form-control">
@@ -34,21 +26,35 @@
         <input type="button" value="Agregar producto" @onclick="SaveWarehouse" />
     </EditForm>
 </div>
+<div class="text-center" h4>
+    @message
+</div>
 @code {
     StorageEntity oStorage = new StorageEntity();
     List<ProductEntity> products = new List<ProductEntity>();
     List<WarehouseEntity> warehouses = new List<WarehouseEntity>();
+    string message;
 
     protected override async Task OnInitializedAsync()
     {
         products = B_Product.ProductList();
         warehouses = B_Warehouse.WarehouseList();
-    
+
     }
     private void SaveWarehouse()
     {
-        oStorage.LastUpdate = DateTime.Now;
-        B_Storage.CreateStorage(oStorage);
-        NavManager.NavigateTo("storage/list");
+        oStorage.StorageId = $"{oStorage.WarehouseId}-{oStorage.ProductId}";
+        if (!B_Storage.IsStorageInWarehouse(oStorage.StorageId))
+        {
+            oStorage.LastUpdate = DateTime.Now;
+
+            B_Storage.CreateStorage(oStorage);
+            message = "Producto almacenado";
+        }
+        else {
+
+            message = "El producto ya existe";
+        }
     }
 }
+ 
