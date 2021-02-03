@@ -15,6 +15,7 @@ namespace Entities
         public DateTime InOutDate { get; set; }
 
         [Required]
+        [DisplayFormat(DataFormatString = "{0:0,0}")]
         public int Quantity { get; set; }
 
         [Required]

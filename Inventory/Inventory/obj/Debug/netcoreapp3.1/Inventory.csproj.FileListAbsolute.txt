@@ -231,44 +231,6 @@ D:\Proyectos\AprendiendoRazor\Inventory\Inventory\bin\Debug\netcoreapp3.1\Entiti
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\bin\Debug\netcoreapp3.1\Bussines.pdb
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\bin\Debug\netcoreapp3.1\Entities.pdb
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\bin\Debug\netcoreapp3.1\DataAccess.pdb
-<<<<<<< HEAD
-=======
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.csprojAssemblyReference.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.AssemblyInfoInputs.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.AssemblyInfo.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.csproj.CoreCompileInputs.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.MvcApplicationPartsAssemblyInfo.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.RazorComponent.input.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\Ejercicios\BlazorPages\Form001.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\Ejercicios\Forms\Form002.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.RazorComponent.output.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Inventory.dll
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.TagHelpers.input.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.TagHelpers.output.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.RazorCoreGenerate.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Components\Ejercicios\BlazorPages\Form001.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Components\Ejercicios\Forms\Form002.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.RazorAssemblyInfo.cache
-D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.RazorAssemblyInfo.cs
->>>>>>> 603b2f0 (no se que pasa)
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\staticwebassets\Inventory.StaticWebAssets.Manifest.cache
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\staticwebassets\Inventory.StaticWebAssets.xml
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\scopedcss\bundle\Inventory.styles.css
@@ -279,7 +241,6 @@ D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Invent
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.dll
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.pdb
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Inventory.genruntimeconfig.cache
-<<<<<<< HEAD
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\Storages\CreateStorageComponent.razor.g.cs
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\Storages\ListStorageComponent.razor.g.cs
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\Storages\UpdateStorageComponent.razor.g.cs
@@ -304,5 +265,3 @@ D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Pages\Warehouses\CreateWarehousePage.razor.g.cs
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Pages\Warehouses\ListWarehousePage.razor.g.cs
 D:\Proyectos\AprendiendoRazor\Inventory\Inventory\obj\Debug\netcoreapp3.1\Razor\Pages\Warehouses\UpdateWarehousePage.razor.g.cs
-=======
->>>>>>> 603b2f0 (no se que pasa)

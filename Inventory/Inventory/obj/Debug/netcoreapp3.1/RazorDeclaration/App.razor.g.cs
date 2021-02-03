@@ -77,56 +77,39 @@ using Inventory.Shared;
 #nullable disable
 #nullable restore
 #line 10 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
-using Inventory.Components.Ejercicios.BlazorPages;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 11 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
-using Inventory.Components.Ejercicios.Forms;
-
-#line default
-#line hidden
-#nullable disable
-<<<<<<< HEAD
-#nullable restore
-#line 12 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
 using Inventory.Components.Products;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+#line 11 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
 using Inventory.Components.Categories;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+#line 12 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
 using Inventory.Components.InputsOutputs;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 15 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+#line 13 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
 using Inventory.Components.Storages;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 16 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
+#line 14 "D:\Proyectos\AprendiendoRazor\Inventory\Inventory\_Imports.razor"
 using Inventory.Components.Warehouses;
 
 #line default
 #line hidden
 #nullable disable
-=======
->>>>>>> 77c73cd (merge localwork-main)
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
